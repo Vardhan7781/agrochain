@@ -1,0 +1,116 @@
+/* Splash Screen */
+.splash-screen {
+  text-align: center;
+  padding: 20px;
+  background-color: #e8f5e9;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #388e3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Weekly News Section */
+#weekly-news {
+  padding: 20px;
+  background-color: #f5fff2;
+}
+
+.news-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #e8f5e9;
+}
+
+.news-item h3 {
+  margin: 0 0 10px;
+  color: #388e3c;
+}
+
+.news-item p {
+  margin: 0 0 10px;
+}
+
+.news-item a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
+
+/* Market Prices Section */
+.market-prices {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.price-item {
+  background-color: #f1f8e9;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.price-item h3 {
+  margin: 0;
+}
+
+.price-item p {
+  font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #388e3c;
+  color: white;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 5px 0;
+}
